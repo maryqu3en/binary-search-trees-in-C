@@ -17,8 +17,20 @@ Understanding stack and queue data structures is crucial in computer science. Th
 
 ### Binary Trees
 
-- ** :** .
-- 
+- `createNode(int data)`: Creates a new node with the given data.
+- `insert(treeNode* root, int data)`: Inserts a new node with the given data into the tree.
+- `search(treeNode* root, int data)`: Searches for a node with the given data.
+- `delete(treeNode* root, int data)`: Deletes the node with the given data.
+- `findMin(treeNode* root)`: Finds the node with the minimum data.
+- `findMax(treeNode* root)`: Finds the node with the maximum data.
+- `height(treeNode* root)`: Calculates the height of the tree.
+- `preorderTraversal(treeNode* root)`: Performs a preorder traversal of the tree.
+- `inorderTraversal(treeNode* root)`: Performs an inorder traversal of the tree.
+- `postorderTraversal(treeNode* root)`: Performs a postorder traversal of the tree.
+- `isBST(treeNode* root)`: Checks if the tree is a binary search tree (BST).
+- `getSuccessor(treeNode* root, int data)`: Finds the inorder successor of a node.
+- `getPredecessor(treeNode* root, int data)`: Finds the inorder predecessor of a node.
+- `isIdentical(treeNode* root1, treeNode* root2)`: Checks if two trees are identical.
 
 ## Exercise Problems
 
@@ -30,7 +42,7 @@ Understanding stack and queue data structures is crucial in computer science. Th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/maryqu3en/stack-queue-in-LL.git
+   git clone https://github.com/maryqu3en/binary-search-trees
    ```
 
 2. Navigate to the project directory:
