@@ -6,24 +6,25 @@
 typedef struct treeNode
 {
     int data;
-    struct node *left;
-    struct node *right;
+    struct treeNode *left;
+    struct treeNode *right;
 }treeNode;
 
 // binary search trees functions
-struct treeNode* insert(struct treeNode* root, int data);
-void inorderTraversal(struct treeNode* root);
-void preorderTraversal(struct treeNode* root);
-void postorderTraversal(struct treeNode* root);
-struct treeNode* search(struct treeNode* root, int data);
-int height(struct treeNode* root);
-struct treeNode* delete(struct treeNode* root, int data);
-struct treeNode* findMin(struct treeNode* root);
-struct treeNode* findMax(struct treeNode* root);
-int isBST(struct treeNode* root);
-struct treeNode* getSuccessor(struct treeNode* root, int data);
-struct treeNode* getPredecessor(struct treeNode* root, int data);
-int isBSTUtil(struct treeNode* root, int minValue, int maxValue);
-int isIdentical(treeNode* root1, treeNode* root2);
+treeNode* createNode(int);
+treeNode* insert(treeNode*, int);
+void inorderTraversal(treeNode*);
+void preorderTraversal(treeNode*);
+void postorderTraversal(treeNode*);
+treeNode* search(treeNode*, int);
+int height(treeNode*);
+treeNode* delete(treeNode*, int);
+treeNode* findMin(treeNode*);
+treeNode* findMax(treeNode*);
+int isBST(treeNode*);
+treeNode* getSuccessor(treeNode*, int);
+treeNode* getPredecessor(treeNode*, int);
+int isBSTUtil(treeNode*, int, int);
+int isIdentical(treeNode*, treeNode*);
 
 #endif
