@@ -42,7 +42,7 @@ Understanding binary search trees data structures is crucial in computer science
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/maryqu3en/binary-search-trees.git
+   git clone https://github.com/maryqu3en/binary-search-trees-in-C.git
    ```
 
 2. Navigate to the project directory:
