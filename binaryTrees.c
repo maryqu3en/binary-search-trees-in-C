@@ -1,6 +1,6 @@
 #include "binaryTrees.h"
 
-// Helper function to create a new tree node
+// Function to create a new tree node
 treeNode* createNode(int data) {
     treeNode* newNode = (treeNode*)malloc(sizeof(treeNode));
     newNode->data = data;
