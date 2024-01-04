@@ -1,6 +1,6 @@
-# Binary Trees implementation
+# Binary Search Trees implementation
 
-This repository contains C language implementations binary trees. Additionally, there are exercises to reinforce your understanding of this fundamental data structure.
+This repository contains C language implementations of binary search trees. Additionally, there are exercises to reinforce your understanding of this fundamental data structure.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ This repository contains C language implementations binary trees. Additionally, 
 
 ## Introduction
 
-Understanding stack and queue data structures is crucial in computer science. This repository provides implementations of stacks and queues using linked lists, which are dynamic data structures allowing efficient memory usage.
+Understanding binary search trees data structures is crucial in computer science. This repository provides implementations of binary search trees, which are dynamic data structures allowing efficient memory usage.
 
 ## Implemented Data Structures
 
@@ -34,7 +34,7 @@ Understanding stack and queue data structures is crucial in computer science. Th
 
 ## Exercise Problems
 
-1. ** :**
+1. 
    - 
 
 ## How to Use
