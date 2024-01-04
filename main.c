@@ -57,11 +57,6 @@ int main() {
     inorderTraversal(root);
     printf("\n");
 
-    // Perform postorder traversal
-    printf("Postorder traversal: ");
-    postorderTraversal(root);
-    printf("\n");
-
     // Check if two trees are identical
     treeNode* root2 = createNode(10);
     root2 = insert(root2, 5);
