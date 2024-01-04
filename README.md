@@ -15,7 +15,7 @@ Understanding binary search trees data structures is crucial in computer science
 
 ## Implemented Data Structures
 
-### Binary Trees
+### Binary Search Trees
 
 - `createNode(int data)`: Creates a new node with the given data.
 - `insert(treeNode* root, int data)`: Inserts a new node with the given data into the tree.
