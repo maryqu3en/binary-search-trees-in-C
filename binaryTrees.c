@@ -211,3 +211,19 @@ int isIdentical(treeNode* root1, treeNode* root2) {
 
     return 0; // One tree is empty, and the other is not, so they are not identical
 }
+
+// Function to print the leaf nodes of a binary tree
+void printLeafNodes(treeNode* root) {
+    if (root == NULL) {
+        return;
+    }
+
+    if (root->left == NULL && root->right == NULL) {
+        printf("%d ", root->data);
+        return;
+    }
+
+    printLeafNodes(root->left);
+    printLeafNodes(root->right);
+}
+

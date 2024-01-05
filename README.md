@@ -31,11 +31,12 @@ Understanding binary search trees data structures is crucial in computer science
 - `getSuccessor(treeNode* root, int data)`: Finds the inorder successor of a node.
 - `getPredecessor(treeNode* root, int data)`: Finds the inorder predecessor of a node.
 - `isIdentical(treeNode* root1, treeNode* root2)`: Checks if two trees are identical.
+- `printLeafNodes(treeNode* root)`: Print the leaf nodes of the tree.
 
 ## Exercise Problems
 
-1. 
-   - 
+1. Display the tree in a structured manner:
+   - Display the tree in a structured manner for visual understanding.
 
 ## How to Use
 

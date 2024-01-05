@@ -26,5 +26,6 @@ treeNode* getSuccessor(treeNode*, int);
 treeNode* getPredecessor(treeNode*, int);
 int isBSTUtil(treeNode*, int, int);
 int isIdentical(treeNode*, treeNode*);
+void printLeafNodes(treeNode*);
 
 #endif
