@@ -17,6 +17,11 @@ int main() {
     // Display the tree
     printTree(root, 0);
 
+    // Print leaf nodes
+    printf("Leaf nodes: ");
+    printLeafNodes(root);
+    printf("\n");
+
     // Perform inorder traversal
     printf("Inorder traversal: ");
     inorderTraversal(root);
