@@ -1,5 +1,5 @@
 #include "binaryTrees.h"
-
+#include "displayTree.h"
 
 int main() {
     // Create a root node
@@ -13,6 +13,9 @@ int main() {
     root = insert(root, 8);
     root = insert(root, 13);
     root = insert(root, 17);
+
+    // Display the tree
+    printTree(root, 0);
 
     // Perform inorder traversal
     printf("Inorder traversal: ");
