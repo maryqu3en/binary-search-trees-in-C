@@ -38,6 +38,9 @@ Understanding binary search trees data structures is crucial in computer science
 1. Display the tree in a structured manner:
    - Display the tree in a structured manner for visual understanding.
 
+2. Most balanced tree:
+   - Find a way to create the most balanced tree out of an array (can be sorted, can be the opposite).
+
 ## How to Use
 
 1. Clone the repository:
