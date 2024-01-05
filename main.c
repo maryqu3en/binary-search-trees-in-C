@@ -1,5 +1,6 @@
 #include "binaryTrees.h"
 #include "displayTree.h"
+#include "mostBalancedTree.h"
 
 int main() {
     // Create a root node
@@ -74,6 +75,18 @@ int main() {
     root2 = insert(root2, 17);
     int identical = isIdentical(root, root2);
     printf("Are the two trees identical? %s\n", identical ? "Yes" : "No");
+
+    // Making a balanced tree from a sorted array
+    printf("\n\nSorted array elements: ");
+    int arr[] = {1, 4, 5, 10, 16, 17, 21};
+    for (int i = 0; i < 7; i++)
+    {
+        printf("%d\t", arr[i]);
+    }
+    
+    printf("\nBalanced tree: \n");
+    treeNode *balancedTree = sortedArrayToBST(arr, 0, 6);
+    printTree(balancedTree, 0);
 
     return 0;
 }
