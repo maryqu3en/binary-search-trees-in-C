@@ -52,7 +52,7 @@ Understanding binary search trees data structures is crucial in computer science
 2. Navigate to the project directory:
 
    ```bash
-   cd stack-queue-in-LL
+   cd binary-search-trees-in-C
    ```
 
 3. Compile the C files:
